@@ -2,7 +2,7 @@
 A dead simple pomodoro web app
 
 ## Inspiration
-This was inspired by a Reddit post of a pomodoro guide.
+I saw a Reddit post of a pomodoro guide to help fight procrastination. I thought it would be nice to make an app for it.
 
 ## Built With
 * [Create React App](https://github.com/facebook/create-react-app)
