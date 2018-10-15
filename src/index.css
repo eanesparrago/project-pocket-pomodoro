@@ -138,4 +138,5 @@ body {
   justify-content: center;
   /* align-items: center; */
   background-color: #ffe9de;
+  /* background-image: linear-gradient(to top, rgb(255, 217, 198), #ffe9de) */
 }
