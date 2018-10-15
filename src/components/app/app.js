@@ -1,10 +1,49 @@
 import React, { Component } from "react";
-import "./app.css";
+import styled from "styled-components";
 
 import Header from "../header/header";
 import TaskInput from "../task-input/task-input";
 import Timer from "../timer/timer";
 import Counter from "../counter/counter";
+
+// styled
+const Wrapper = styled.div`
+  width: 20rem;
+  height: 450px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid white;
+  border-radius: 1rem;
+  margin-top: 5vw;
+
+  @media (max-width: 500px) {
+    width: fit-content;
+    margin-top: 2rem;
+    border: none;
+  }
+`;
+
+const StyledFooter = styled.footer`
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 1.5;
+`;
+const StyledFooterLink = styled.a`
+  text-decoration: none;
+  color: #999289;
+  text-align: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: ##999289;
+  }
+`;
 
 class App extends Component {
   constructor(props) {
@@ -63,7 +102,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
+      <Wrapper className="app">
         <Header />
 
         <TaskInput
@@ -75,7 +114,7 @@ class App extends Component {
         />
 
         {this.state.isStarted ? (
-          <section>
+          <React.Fragment>
             <Counter phase={this.state.phase} />
 
             <Timer
@@ -84,9 +123,18 @@ class App extends Component {
               onDoneCounting={this.onDoneCounting}
               onContinue={this.onContinue}
             />
-          </section>
+          </React.Fragment>
         ) : null}
-      </div>
+
+        <StyledFooter>
+          <StyledFooterLink
+            href="https://github.com/LJEsp/project-pocket-pomodoro"
+            target="_blank"
+          >
+            Made with &#10084; &mdash;&nbsp;LJEsp
+          </StyledFooterLink>
+        </StyledFooter>
+      </Wrapper>
     );
   }
 }
