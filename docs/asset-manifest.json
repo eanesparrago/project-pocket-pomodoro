@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.a4ba0281.chunk.css",
-  "main.js": "/static/js/main.1a7ce436.chunk.js",
-  "main.js.map": "/static/js/main.1a7ce436.chunk.js.map",
-  "static/js/1.2c9dd40a.chunk.js": "/static/js/1.2c9dd40a.chunk.js",
-  "static/js/1.2c9dd40a.chunk.js.map": "/static/js/1.2c9dd40a.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.a4ba0281.chunk.css.map": "/static/css/main.a4ba0281.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.40787642b2f93f4cad52cc3f9884b905.js": "/precache-manifest.40787642b2f93f4cad52cc3f9884b905.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/project-pocket-pomodoro/static/css/main.a4ba0281.chunk.css",
+  "main.js": "/project-pocket-pomodoro/static/js/main.08b04e29.chunk.js",
+  "main.js.map": "/project-pocket-pomodoro/static/js/main.08b04e29.chunk.js.map",
+  "static/js/1.8c6fc07c.chunk.js": "/project-pocket-pomodoro/static/js/1.8c6fc07c.chunk.js",
+  "static/js/1.8c6fc07c.chunk.js.map": "/project-pocket-pomodoro/static/js/1.8c6fc07c.chunk.js.map",
+  "runtime~main.js": "/project-pocket-pomodoro/static/js/runtime~main.7bc26436.js",
+  "runtime~main.js.map": "/project-pocket-pomodoro/static/js/runtime~main.7bc26436.js.map",
+  "static/css/main.a4ba0281.chunk.css.map": "/project-pocket-pomodoro/static/css/main.a4ba0281.chunk.css.map",
+  "index.html": "/project-pocket-pomodoro/index.html",
+  "precache-manifest.334062df3eba295927175c5e683b4822.js": "/project-pocket-pomodoro/precache-manifest.334062df3eba295927175c5e683b4822.js",
+  "service-worker.js": "/project-pocket-pomodoro/service-worker.js"
 }
