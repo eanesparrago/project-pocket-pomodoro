@@ -131,7 +131,7 @@ class App extends Component {
             href="https://github.com/LJEsp/project-pocket-pomodoro"
             target="_blank"
           >
-            Made with &#10084; &mdash;&nbsp;LJEsp
+            Made with &#9835; &mdash;&nbsp;LJEsp
           </StyledFooterLink>
         </StyledFooter>
       </Wrapper>
