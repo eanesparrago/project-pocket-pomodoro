@@ -6,6 +6,8 @@ import TaskInput from "../task-input/task-input";
 import Timer from "../timer/timer";
 import Counter from "../counter/counter";
 
+import notification from "../../audio/notification.mp3";
+
 // styled
 const Wrapper = styled.div`
   width: 20rem;
@@ -45,6 +47,8 @@ const StyledFooterLink = styled.a`
   }
 `;
 
+const audio = new Audio(notification);
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -77,6 +81,8 @@ class App extends Component {
     this.setState({ isCounting: false }, () => {
       console.log(this.state);
     });
+
+    audio.play();
   }
 
   onContinue() {
