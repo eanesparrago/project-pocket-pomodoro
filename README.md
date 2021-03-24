@@ -2,7 +2,7 @@
 Dead simple pomodoro web app
 
 ## Demo Link
-https://iansanwich.github.io/project-pocket-pomodoro/
+https://eanesparrago.github.io/project-pocket-pomodoro/
 
 ## Inspiration
 I saw a Reddit post of a pomodoro guide to help fight procrastination. I thought it would be nice to make an app for it.
@@ -11,4 +11,4 @@ I saw a Reddit post of a pomodoro guide to help fight procrastination. I thought
 * [Create React App](https://github.com/facebook/create-react-app)
 
 ## Author
-Leandro Esparrago
+Ean
